@@ -1,0 +1,72 @@
+# Arduino .gitignore
+
+# Build files
+*.elf
+*.hex
+*.bin
+
+# Sketch-specific files
+*.cpp
+*.o
+*.d
+*.a
+*.lst
+*.map
+*.s
+*.sym
+*.eep
+*.lss
+
+# Core and Library
+/libraries/*.o
+/libraries/*.a
+/build/
+
+# Miscellaneous
+*.log
+*.csv
+*.tmp
+*.bak
+*.swp
+
+# macOS files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+desktop.ini
+
+---
+
+# .NET Console App .gitignore
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]pplication/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userprefs
+
+# Auto-generated files
+*.csproj.user
+*.vs/
+.vscode/
+
+# Miscellaneous
+*.log
+*.tmp
+*.bak
+*.swp
+*.nupkg
+*.lock.json
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
